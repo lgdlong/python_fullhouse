@@ -1,9 +1,12 @@
-n = int(input())
+N = int(input())
 
-'''
-Trường Tèo có 30 lớp
-Mỗi lớp cử n đại diện
+res = (30*N * (30*N - 1))/2
 
-Mỗi thằng bắt 1 tay
+print(int(res))
+
+''' 
+
+Công thức:
+(30*N * (30*N - 1))/2
 
 '''
