@@ -2,8 +2,7 @@ import math
 
 a, b, r = map(float, input().split())
 
-res = a * b - math.pi*(r**2)
+remaining_area_rounded = round(a * b - math.pi * r**2, 2)
 
-new_res = round(res, 2)
-
-print(new_res)
+# Print the result
+print(remaining_area_rounded)
